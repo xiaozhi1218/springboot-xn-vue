@@ -1,0 +1,64 @@
+{
+  "name": "MTL",
+  "version": "3.8.0",
+  "description": "医互链点平台后台",
+  "author": "lsc",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "node build/index.js",
+    "build:preview": "node build/index.js --preview",
+    "build:report": "node build/index.js --report",
+    "svgo": "svgo -f src/icons/svg --config=src/icons/svgo.yml",
+    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
+    "test": "npm run lint && npm run test:unit"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "core-js": "^2.6.5",
+    "element-china-area-data": "^4.1.2",
+    "element-ui": "2.6.3",
+    "font-awesome": "4.7.0",
+    "js-cookie": "2.2.0",
+    "normalize.css": "7.0.0",
+    "nprogress": "0.2.0",
+    "serve": "10.0.2",
+    "vue": "2.5.17",
+    "vue-area-linkage": "^5.1.0",
+    "vue-print-nb": "^1.0.3",
+    "vue-router": "3.0.1",
+    "vue-ueditor-wrap": "^2.4.1",
+    "vuex": "3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "3.0.5",
+    "@vue/cli-plugin-unit-jest": "3.0.5",
+    "@vue/cli-service": "3.0.5",
+    "@vue/test-utils": "1.0.0-beta.20",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "23.6.0",
+    "chalk": "2.4.1",
+    "connect": "3.6.6",
+    "node-sass": "^4.9.3",
+    "path-to-regexp": "2.4.0",
+    "qs": "^6.7.0",
+    "runjs": "4.3.2",
+    "sass-loader": "7.1.0",
+    "script-ext-html-webpack-plugin": "2.0.1",
+    "server-static": "2.0.5",
+    "svg-sprite-loader": "3.8.0",
+    "svgo": "1.0.5",
+    "vue-template-compiler": "2.5.17",
+    "vue-ueditor-wrap": "^2.4.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "engines": {
+    "node": ">= 8.9",
+    "npm": ">= 3.0.0"
+  },
+  "license": "MIT"
+}
