@@ -15,8 +15,16 @@ import router from '@/router'
 import './utils/directives.js'
 import '@/icons' // icon
 import '@/permission' // permission control
+import echarts from 'echarts'
 
-
+Vue.prototype.$echarts=echarts
+Vue.use(echarts);
+//百度地图api
+import BaiduMap from 'vue-baidu-map'
+Vue.use(BaiduMap, {
+  // ak 是在百度地图开发者平台申请的密钥 详见 http://lbsyun.baidu.com/apiconsole/key */
+  ak: 'YOUR_APP_KEY'
+})
 import Print from 'vue-print-nb'
 　　Vue.use(Print); //注册
 

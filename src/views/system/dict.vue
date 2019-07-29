@@ -53,7 +53,6 @@
 				</el-table>
 			</el-row>
 		</el-col>
-
 		<el-dialog :title="dictTitle" :visible.sync="dictDialogVisible" width="30%">
 			<el-form ref="form" :model="dict" label-width="80px" size="mini">
 				<el-form-item label="编号">

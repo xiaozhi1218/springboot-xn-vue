@@ -16,8 +16,9 @@
   "dependencies": {
     "axios": "0.18.0",
     "core-js": "^2.6.5",
+    "echarts": "^4.2.1",
     "element-china-area-data": "^4.1.2",
-    "element-ui": "2.6.3",
+    "element-ui": "2.9.2",
     "font-awesome": "4.7.0",
     "js-cookie": "2.2.0",
     "normalize.css": "7.0.0",
@@ -25,6 +26,7 @@
     "serve": "10.0.2",
     "vue": "2.5.17",
     "vue-area-linkage": "^5.1.0",
+    "vue-baidu-map": "^0.21.22",
     "vue-print-nb": "^1.0.3",
     "vue-router": "3.0.1",
     "vue-ueditor-wrap": "^2.4.1",

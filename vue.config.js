@@ -15,7 +15,7 @@ module.exports = {
    * In most cases please use '/' !!!
    * Detail https://cli.vuejs.org/config/#baseurl
    */
-  baseUrl: '/',
+  baseUrl: './',
   outputDir: 'dist',
   assetsDir: 'static',
   lintOnSave: process.env.NODE_ENV !== 'production',
@@ -28,14 +28,14 @@ module.exports = {
       errors: true
     },
     proxy: {
-        '/': {
-            target: 'http://127.0.0.1:8080',
-            changeOrigin: true,
-            ws: false,
-            pathRewrite: {
-              '^/': ''
-            }
+      '/': {
+        target: 'http://127.0.0.1:8080',
+        changeOrigin: true,
+        ws: false,
+        pathRewrite: {
+          '^/admin': '/admin'
         }
+      }
     }
   },
   

@@ -1,8 +1,9 @@
 import request from '@/utils/request'
 
 export function login(username, password) {
+	console.log("--->")
   return request({
-    url: '/admin/login',
+    url: 'login',
     method: 'post',
 		type:"form",
     data: {
@@ -14,14 +15,14 @@ export function login(username, password) {
 
 export function getInfo() {
   return request({
-    url: '/adminuser/info',
+    url: 'adminuser/info',
     method: 'get'
   })
 }
 
 export function logout() {
   return request({
-    url: '/admin/logout',
+    url: 'admin/logout',
     method: 'post'
   })
 }
